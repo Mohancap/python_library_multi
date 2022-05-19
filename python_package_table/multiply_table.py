@@ -8,7 +8,9 @@ class Multiplication():
             result = i*self.number
             print("{}*{}: {}".format(self.number, i,  result))
             i += 1
-
-number = int(input("Enter a number here to see table: "))
-mul = Multiplication(number)
-mul.get_multiply_numbers_from_1to10()
+try:
+    number = int(input("Enter a number here to see table: "))
+    mul = Multiplication(number)
+    mul.get_multiply_numbers_from_1to10()
+except EOFError as e:
+    print(end="")
