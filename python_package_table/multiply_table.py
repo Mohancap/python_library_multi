@@ -10,7 +10,7 @@ class Multiplication():
             i += 1
 try:
 #     number = int(input("Enter a number here to see table: "))
-    mul = Multiplication(8)
+    mul = Multiplication(10)
     mul.get_multiply_numbers_from_1to10()
 except EOFError as e:
     print(end="")
