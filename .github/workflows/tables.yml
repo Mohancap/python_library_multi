@@ -31,5 +31,5 @@ jobs:
       run: pip install setuptools twine
     - name: Install table library
       run: pip install python_package_table
-#     - name: Run script
-#       run: python test_table.py
+    - name: Run script
+      run: python test_table.py
